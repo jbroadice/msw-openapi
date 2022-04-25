@@ -1,0 +1,3 @@
+[submodule "@johnsonmatthey/Methanol-API-Schema"]
+	path = @johnsonmatthey/Methanol-API-Schema
+	url = git@github.com:johnsonmatthey/Methanol-API-Schema.git
