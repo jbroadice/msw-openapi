@@ -72,10 +72,7 @@ export function makeMswHandlersFromOpenApiSchema(yamlFilePath: string) {
         continue;
       }
 
-      handlers.push(
-          
-        
-        rest[httpMethods[i]](pathTransformed, responseResolver));
+      handlers.push(rest[httpMethods[i]](pathTransformed, responseResolver));
     }
   }
 
